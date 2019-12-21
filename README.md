@@ -87,6 +87,7 @@ sudo systemctl restart apache2.service
 ```
 cd /var/www/html/project
 mv .env.example .env
+```
 
 ## Setting up your project
 ```
