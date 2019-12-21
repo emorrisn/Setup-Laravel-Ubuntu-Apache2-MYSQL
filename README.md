@@ -1,4 +1,4 @@
-# Setup-Laravel-Ubunut-Apache2
+# How to setup Laravel on Ubuntu using Apache2 and MYSQL as the database
 How to setup Laravel on Ubuntu using Apache2 engine with a MYSQL database.
 
 ```
