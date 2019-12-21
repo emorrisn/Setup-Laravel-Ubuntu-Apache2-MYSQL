@@ -83,9 +83,13 @@ sudo service apache2 restart
 sudo systemctl restart apache2.service
 ```
 
-## Setting up your project
+## Make your project is happy
 ```
 cd /var/www/html/project
+mv .env.example .env
+
+## Setting up your project
+```
 php artiasn migrate:fresh --seed
 php artisan key:generate
 ```
