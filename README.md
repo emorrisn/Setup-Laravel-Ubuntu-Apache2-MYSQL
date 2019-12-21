@@ -21,7 +21,7 @@ sudo apt install php7.2 libapache2-mod-php7.2 php7.2-mbstring php7.2-xmlrpc php7
 ```
 sudo nano /etc/php/7.2/apache2/php.ini
 ```
-### Change:  
+### Edit the values 
 ```
 memory_limit = 256M  
 upload_max_filesize = 64M  
