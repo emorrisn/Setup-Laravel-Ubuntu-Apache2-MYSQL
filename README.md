@@ -1,8 +1,8 @@
 # Setup-Laravel-Ubunut-Apache2
-How to setup Laravel on Ubuntu using Apache2 engine.
+How to setup Laravel on Ubuntu using Apache2 engine with a MYSQL database.
 
 ```
-Ubuntu, Apache, Apache2, Laravel, 2019, 2020, OVH
+Ubuntu, Apache, Apache2, Laravel, 2019, 2020, OVH, MYSQL
 ```
 
 ## The basics  
