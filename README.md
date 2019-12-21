@@ -1,9 +1,10 @@
 # Setup-Laravel-Ubunut-Apache2
 How to setup Laravel on Ubuntu using Apache2 engine.
 
+## The basics
+>sudo apt update
+>sudo apt install apache2
 
-sudo apt update
-sudo apt install apache2
 sudo systemctl stop apache2.service
 sudo systemctl start apache2.service
 sudo systemctl enable apache2.service
