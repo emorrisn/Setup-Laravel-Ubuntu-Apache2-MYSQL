@@ -113,6 +113,8 @@ quit
 ## Make your project is happy
 ```
 cd /var/www/html/project
+composer install
+composer update
 mv .env.example .env
 (Enter Database Credentials)
 php artisan config:cache
