@@ -48,7 +48,7 @@ sudo chmod -R 755 /var/www/html/project/
 ```
 sudo nano /etc/apache2/sites-available/laravel.conf
 ```
-### Add:
+### Copy and paste
 ```
 <VirtualHost *:80>
   ServerAdmin admin@example.com
