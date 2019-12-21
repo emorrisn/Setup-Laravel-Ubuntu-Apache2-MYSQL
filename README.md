@@ -74,7 +74,14 @@ sudo a2enmod rewrite
 sudo service apache2 restart
 ```
 
-## Finally..
+## Make sure Apache2 is happy..
 ```
 sudo systemctl restart apache2.service
+```
+
+## Setting up your project
+```
+cd /var/www/html/project
+php artiasn migrate:fresh --seed
+php artisan key:generate
 ```
