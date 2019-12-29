@@ -7,8 +7,10 @@ Ubuntu, Apache, Apache2, Laravel, 2019, 2020, OVH, MYSQL
 
 ## The basics  
 ```
-sudo apt update  
 sudo apt install apache2
+sudo apt-get install software-properties-common
+sudo add-apt-repository ppa:ondrej/php
+sudo apt-get update
 ```
 
 ## Making sure Apache2 is working  
