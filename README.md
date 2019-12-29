@@ -27,6 +27,11 @@ or
 ```
 sudo apt install php libapache2-mod-php php-mbstring php-xmlrpc php-soap php-gd php-xml php-cli php-zip php-mysql
 ```
+## Note
+```
+Ensure you do "php -v" and replace "7.2" with wahtever version you recieve.
+```
+
 ## Setup PHP's config  
 ```
 sudo nano /etc/php/7.2/apache2/php.ini
