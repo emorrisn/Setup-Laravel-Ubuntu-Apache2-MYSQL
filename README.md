@@ -19,11 +19,11 @@ sudo systemctl enable apache2.service
 ```
 ## Install the PHP essentials  
 ```
-sudo apt install php7.2 libapache2-mod-php7.2 php7.2-mbstring php7.2-xmlrpc php7.2-soap php7.2-gd php7.2-xml php7.2-cli php7.2-zip php7.2-mysql
+sudo apt install php7.2 libapache2-mod-php7.2 php7.2-mbstring php7.2-xmlrpc php7.2-soap php7.2-gd php7.2-xml php7.2-cli php7.2-zip php7.2-mysql php7.2-curl
 ```
 or
 ```
-sudo apt install php libapache2-mod-php php-mbstring php-xmlrpc php-soap php-gd php-xml php-cli php-zip php-mysql
+sudo apt install php libapache2-mod-php php-mbstring php-xmlrpc php-soap php-gd php-xml php-cli php-zip php-mysql php-curl
 ```
 ## Note
 ```
@@ -123,8 +123,8 @@ quit
 ## Make your project is happy
 ```
 cd /var/www/html/project
-composer install
-composer update
+sudo composer install
+sudo composer update
 mv .env.example .env
 (Enter Database Credentials)
 php artisan config:cache
