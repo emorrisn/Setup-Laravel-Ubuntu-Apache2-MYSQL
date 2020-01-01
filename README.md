@@ -120,7 +120,7 @@ FLUSH PRIVILEGES;
 quit
 ```
 
-## Make your project is happy
+## Make sure your project is happy
 ```
 cd /var/www/html/project
 sudo composer install
