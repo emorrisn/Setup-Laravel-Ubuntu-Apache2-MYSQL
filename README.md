@@ -133,5 +133,5 @@ php artisan config:cache
 ## Setting up your project
 ```
 php artisan key:generate
-php artiasn migrate:fresh --seed
+php artisan migrate:fresh --seed
 ```
