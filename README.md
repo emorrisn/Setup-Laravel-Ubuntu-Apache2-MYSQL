@@ -95,10 +95,19 @@ sudo systemctl restart apache2.service
 
 ## Setting up MYSQL
 ```
-sudo ufw allow in "Apache Full"
+sudo ufw allow ssh
+sudo ufw allow "Apache Full"
+sudo ufw allow https
+sudo ufw allow http
 sudo apt install mysql-server
 sudo mysql_secure_installation
 ```
+
+## Check if your ports are correct
+```
+sudo ufw status numbered
+```
+
 ### Installation
 ```
 Password Plugin: Y
