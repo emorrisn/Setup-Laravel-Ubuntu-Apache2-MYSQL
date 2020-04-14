@@ -27,7 +27,7 @@ sudo apt install php libapache2-mod-php php-mbstring php-xmlrpc php-soap php-gd 
 ```
 ## Note
 ```
-Ensure you do "php -v" and replace "7.2" with wahtever version you recieve.
+Ensure you do "php -v" and replace "7.2" with whatever version you recieve.
 ```
 
 ## Setup PHP's config  
